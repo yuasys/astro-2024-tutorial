@@ -1,5 +1,5 @@
 ---
-
+const	pageTitle = "Astro演習";
 ---
 
 <html lang="ja">
@@ -8,7 +8,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro演習</title>
+    <title>{pageTitle}</title>
     <style>
 			/* ------------------ペースとなったHTML/CSSの出典元---------------------------
 				box-13				https://pote-chil.com/css-stock/ja/box#13
@@ -157,7 +157,7 @@
     <a href="/blog/">ブログ</a>
 
     <div class="box-013">
-      <h1>私のAstroサイト</h1>
+      <h1>{pageTitle}</h1>
       <h2 class="heading-1">CSS見出しデザイン</h2>
       <div style="display: flex; justify-content: center;">
 				<button class="button-46">
