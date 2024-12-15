@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 const	pageTitle = "Astro演習";
 ---
 
@@ -156,7 +156,7 @@ const	pageTitle = "Astro演習";
     </style>
   </head>
   <body>
-		<Navigation />
+		<Header />
 
     <div class="box-013">
       <h1>{pageTitle}</h1>
@@ -172,5 +172,9 @@ const	pageTitle = "Astro演習";
 		<input name="switch" id="switch" type="checkbox">
 		<label class="switch" for="switch"></label>
 		<Footer />
+		<!-- <script src="../scripts/main.js"></script> -->
+		<script>import '../scripts/main.js';</script>
+		</script>
+		</body>
   </body>
 </html>
