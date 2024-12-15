@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import '../components/Navigation.astro';
+import Navigation from '../components/Navigation.astro';
 const	pageTitle = "Astro演習";
 ---
 
@@ -153,9 +155,7 @@ const	pageTitle = "Astro演習";
     </style>
   </head>
   <body>
-		<a href="/">ホーム</a>
-    <a href="/about/">概要</a>
-    <a href="/blog/">ブログ</a>
+		<Navigation />
 
     <div class="box-013">
       <h1>{pageTitle}</h1>
