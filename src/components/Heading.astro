@@ -1,0 +1,25 @@
+---
+const { title, headingColor } = Astro.props;
+---
+<!-- 
+box-13  ボックス  https://pote-chil.com/css-stock/ja/box#13
+heading-1 見出し  https://pote-chil.com/css-stock/ja/heading#1 
+-->
+<style define:vars={{ headingColor }}>
+  .box-013 {  
+    max-width: 440px;    
+    border-radius: 3px;
+    background-color:rgb(222, 232, 229);
+    padding: 0;
+  }  
+  .heading-1 {
+    padding: 0.5em 0.7em;
+    /* border-left: 5px solid #d0ca25; */
+    border-left: 5px solid var(--headingColor);
+    color: #4a3a3a;
+  }
+  </style>
+
+  <div class="box-013">
+    <h2 class="heading-1">{title}</h2>
+  </div>

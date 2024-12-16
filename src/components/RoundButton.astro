@@ -1,0 +1,46 @@
+---
+---
+<!--
+------------------ペースとなったHTML/CSSの出典元---------------------------------------
+button-46 丸型ボタン            https://pote-chil.com/css-stock/ja/button#46				
+--------------------------------------------------------------------------------------
+-->
+
+<style>
+  .button-46 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+    background-image: linear-gradient(0, #ddd, #fff);
+    color: #333333;
+    font-weight: 600;
+    font-size: 1em;
+    transition:
+      transform 0.3s,
+      box-shadow 0.3s;
+  }
+  .button-46:hover {
+    transform: scale(0.99);
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    cursor: pointer;
+  }
+  .button-46 span {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(0, #fff, #ddd);
+    line-height: 64px;
+    color: #333333;
+    font-size: 1rem;
+  }
+</style>
+
+<button class="button-46" style="display: flex; justify-content: center;">
+  <span>ボタン</span>
+</button>
