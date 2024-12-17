@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Greeting from '../components/Greeting';
 import Heading from '../components/Heading.astro';
 import RoundButton from '../components/RoundButton.astro';
 import RockerButton from '../components/RockerButton.astro';
@@ -8,6 +9,7 @@ const pageTitle = "ホームページ";
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h2>私の素晴らしいブログのサブタイトル</h2>
+  <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
   <Heading title="CSS見出しとボタンのデザイン例" headingColor="pink" />
   <RoundButton />
   <RockerButton />
