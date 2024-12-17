@@ -20,7 +20,8 @@ h1 {
   font-size: 2.5rem;
 }
 
-/* ナビゲーションのスタイル */
+/* nav styles */
+
 .hamburger {
   padding-right: 20px;
   cursor: pointer;
@@ -53,7 +54,8 @@ h1 {
   text-transform: uppercase;
 }
 
-.nav-links a:hover, a:focus {
+.nav-links a:hover,
+.nav-links a:focus {
   background-color: #ff9776;
 }
 
@@ -78,4 +80,17 @@ h1 {
   .hamburger {
     display: none;
   }
+}
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+html.dark body ul,html.dark body ul a {
+  color: aquamarine;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
