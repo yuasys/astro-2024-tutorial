@@ -9,6 +9,18 @@ image:
     alt: 'Astroのロゴ。'
 tags: ["astro", "ブログ", "公開学習"]
 ---
+<style>
+  img {
+    margin: 1rem 0;
+    display: block;
+  }
+  .tag {
+    background-color: #f0f0f0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    margin-right: 0.2rem;
+  }
+</style>
 
 Astroの学習についての私の _新しいブログ_ へようこそ！ここでは、新しいウェブサイトを作りながら、私の学習過程を共有します。
 
