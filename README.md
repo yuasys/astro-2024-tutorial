@@ -2,6 +2,7 @@
 
 [チュートリアル](https://docs.astro.build/ja/tutorial)
 
+[チュートリアルの成果物](https://yuasys-astro-tutorial-01.netlify.app/)
 
 ```sh
 npm create astro@latest -- --template minimal
