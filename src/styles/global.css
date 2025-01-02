@@ -87,7 +87,7 @@ html.dark {
   color: #fff;
 }
 
-html.dark body ul,html.dark body ul a {
+html.dark body ul,html.dark body ul a,html.dark p:not(.tag) a {
   color: aquamarine;
 }
 
