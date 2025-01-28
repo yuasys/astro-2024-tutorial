@@ -29,6 +29,7 @@ Astro入門チュートリアルを終えて、とても楽しかったので次
   [参考動画](https://youtu.be/HhkIstbkmpU?si=LYN3kLAobttSS0nG)
 1. コンテンツの管理が使いやすく、便利機能が豊富
 1. HTMX技術も使える
+1. デプロイが簡単
 
 
 </fieldset>
