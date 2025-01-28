@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: チュートリアルの次にやること
 author: 湯浅信彦
-description: "この記事単独で表示されます！"
+description:
 image:
   url: 
   alt: 
