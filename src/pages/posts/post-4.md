@@ -3,7 +3,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Docker Desktop for MacからOrbStackへの移行手順
 author: 湯浅信彦
-description: 
+description: Docker Desktop for MacからOrbStackへの移行手順について説明します。
 image: 
   url: 
   alt: 

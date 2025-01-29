@@ -3,7 +3,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: チュートリアルの次にやること
 author: 湯浅信彦
-description: 
+description: チュートリアルの次にやることについて考えを述べます
 image: 
   url: 
   alt: 
