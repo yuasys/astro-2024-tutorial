@@ -1,9 +1,10 @@
 ---
+# 📌各項目はnullは禁止されています
 layout: ../../layouts/MarkdownPostLayout.astro
 title: チュートリアルの次にやること
 author: 湯浅信彦
-description:
-image:
+description: 
+image: 
   url: 
   alt: 
 pubDate: 2025-01-26

@@ -1,9 +1,10 @@
 ---
+# 📌各項目はnullは禁止されています
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Docker Desktop for MacからOrbStackへの移行手順
 author: 湯浅信彦
-description:
-image:
+description: 
+image: 
   url: 
   alt: 
 pubDate: 2025-01-29
