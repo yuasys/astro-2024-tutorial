@@ -91,6 +91,10 @@ html.dark body ul,html.dark body ul a,html.dark p:not(.tag) a {
   color: aquamarine;
 }
 
+html.dark   .mermaid {
+  background-color:white;
+}
+
 .dark .nav-links a {
   color: aquamarine;
 }
