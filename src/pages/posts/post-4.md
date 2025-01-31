@@ -10,6 +10,14 @@ image:
 pubDate: 2025-01-29
 tags: ["OrbStack", "Docker"]
 ---
+<style>
+  .astro-code {
+    width: 90%;
+    margin: 0 auto;
+    padding:1rem;
+    font-size: 1rem;
+  }
+</style>
 ※この記事は、生成AI Gemineに手伝ってもらいました
 
 Docker Desktop for MacからOrbStackへの移行をご検討いただきありがとうございます。以下に、移行の手順を詳しくご説明します。
@@ -19,8 +27,10 @@ Docker Desktop for MacからOrbStackへの移行をご検討いただきあり�
 * **アプリケーションフォルダから削除:** Docker Desktop for Macのアプリケーションをアプリケーションフォルダからゴミ箱に移動し、ゴミ箱を空にします。  
 * **関連ファイルの削除:** Docker Desktop for Macの設定ファイルやキャッシュファイルも削除することをおすすめします。これらのファイルは、通常、ユーザーのホームディレクトリの隠しファイルとして保存されています。ターミナルで以下のコマンドを実行することで、関連ファイルを削除できます。
 
-| rm \-rf \~/.docker |
-| :---- |
+```zsh
+# ホームディレクトリ直下の.dockerディレクトリを強制削除
+rm -rf ~/.doxker
+```
 
 **注意:** 上記のコマンドを実行すると、Dockerに関するすべての設定がリセットされます。
 
@@ -28,8 +38,9 @@ Docker Desktop for MacからOrbStackへの移行をご検討いただきあり�
 
 * **Homebrewによるインストール (推奨):** Homebrewがインストールされている場合は、以下のコマンドでOrbStackをインストールできます。
 
-| brew install orbstack |
-| :---- |
+```zsh
+brew install orbstack
+```
 
 * **手動インストール:** Homebrewを使用していない場合は、OrbStackの公式サイトからインストーラーをダウンロードして、指示に従ってインストールしてください。
 
@@ -37,8 +48,9 @@ Docker Desktop for MacからOrbStackへの移行をご検討いただきあり�
 
 * **ターミナルで起動:** ターミナルで以下のコマンドを実行してOrbStackを起動します。
 
-| orbstack start |
-| :---- |
+```zsh
+orbstack start
+```
 
 * **初期設定:** 初めてOrbStackを起動すると、初期設定画面が表示されます。必要に応じて設定を行い、「Finish」をクリックします。
 
@@ -51,8 +63,9 @@ Docker Desktop for MacからOrbStackへの移行をご検討いただきあり�
 
 * **Dockerコマンドの使用:** ターミナルで通常のDockerコマンドを使用できます。
 
-| docker run hello-world |
-| :---- |
+```zsh
+docker run hello-world
+```
 
 * **トラブルシューティング:** 問題が発生した場合は、OrbStackの公式ドキュメントやコミュニティフォーラムを参照してください。
 
